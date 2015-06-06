@@ -21,12 +21,15 @@
 
 
 """
-Copyright and licenes of perl library which inspired this python library:
+
+### Copyright and licenses of the perl library which inspired this python library: ###
 
 Copyright (C) 2003 Peter Blaiklock, pblaiklo@restrictionmapper.org. This module
 may be distributed under the same terms as Perl itself.
 
 Source code available from: http://restrictionmapper.org/code.html
+
+   ########
 
 
 # DESCRIPTION
@@ -122,4 +125,3 @@ class MapSites(Digest):
         may be smaller than you expect.
         """
         return sorted(set(cutpos for row in self.dictrows for cutpos in row['CUTPOS']))
-
